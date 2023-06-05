@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: "wood.jpg"; */
+
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url(wood.jpg);
+    /* background-repeat: no-repeat; */
+    /* background-size: auto; */
+}
+
+.app {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 50px 0px 10px 0px;
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+header p {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    color: aliceblue;
+}
+
+.cre {
+    margin: 20px 0px 40px 0px;
+}
+
+.pads {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    background-color: rgb(203, 207, 212);
+    border-radius: 30px;
+
+}
+
+.pads>div,
+button {
+    background-color: #f1f1f1;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgb(48, 45, 45);
+}
+@media screen and (max-width: 1328px) {
+    .pads>div,
+    button {
+        width: 200px;
+    }
+  }
+  @media screen and (max-width: 883px) {
+    .pads>div,
+    button {
+        width: 150px;
+    }
+  }
+
+.pads>div:hover {
+    background-color: rgb(218, 207, 207);
+}
+
+
+.oct {
+    border: 20px solid black;
+    height: 80%;
+    width: 1000%;
+}
+
+
+
